@@ -1,0 +1,42 @@
+{
+  "runAt": "2025-12-17T23:16:23.972Z",
+  "runDir": "runs/20251218-081622",
+  "metrics": {
+    "projects_total": 2,
+    "projects_passed": 0,
+    "projects_failed": 2,
+    "pass_rate": 0
+  },
+  "failed_projects": [
+    {
+      "name": "ok-project",
+      "reason": "tsconfig.json(4,15): error TS5110: Option 'module' must be set to 'NodeNext' when option 'moduleResolution' is set to 'NodeNext'.",
+      "log_path": "runs/20251218-081622/logs/ok-project.log",
+      "exitCode": 2
+    },
+    {
+      "name": "bad-project",
+      "reason": "tsconfig.json(4,15): error TS5110: Option 'module' must be set to 'NodeNext' when option 'moduleResolution' is set to 'NodeNext'.",
+      "log_path": "runs/20251218-081622/logs/bad-project.log",
+      "exitCode": 2
+    }
+  ],
+  "projects": [
+    {
+      "name": "ok-project",
+      "passed": false,
+      "logPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/runs/20251218-081622/logs/ok-project.log",
+      "reason": "tsconfig.json(4,15): error TS5110: Option 'module' must be set to 'NodeNext' when option 'moduleResolution' is set to 'NodeNext'.",
+      "exitCode": 2,
+      "durationMs": 956
+    },
+    {
+      "name": "bad-project",
+      "passed": false,
+      "logPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/runs/20251218-081622/logs/bad-project.log",
+      "reason": "tsconfig.json(4,15): error TS5110: Option 'module' must be set to 'NodeNext' when option 'moduleResolution' is set to 'NodeNext'.",
+      "exitCode": 2,
+      "durationMs": 730
+    }
+  ]
+}

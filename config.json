@@ -1,0 +1,19 @@
+{
+  "workspaceDir": "./fixtures",
+  "timeoutSec": 60,
+  "projects": [
+    {
+      "name": "ok-project",
+      "path": "./fixtures/ok-project",
+      "packageManager": "pnpm",
+      "tscCommand": "pnpm -s run typecheck"
+    },
+    {
+      "name": "bad-project",
+      "path": "./fixtures/bad-project",
+      "packageManager": "pnpm",
+      "tscCommand": "pnpm -s run typecheck"
+    }
+  ]
+}
+

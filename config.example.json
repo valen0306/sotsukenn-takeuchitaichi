@@ -1,0 +1,13 @@
+{
+  "workspaceDir": "./workspace",
+  "timeoutSec": 120,
+  "projects": [
+    {
+      "name": "sample-project",
+      "path": "sample-project",
+      "packageManager": "pnpm",
+      "tscCommand": "pnpm -s tsc --noEmit"
+    }
+  ]
+}
+

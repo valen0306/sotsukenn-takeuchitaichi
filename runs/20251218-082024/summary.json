@@ -1,0 +1,35 @@
+{
+  "runAt": "2025-12-17T23:20:26.549Z",
+  "runDir": "runs/20251218-082024",
+  "metrics": {
+    "projects_total": 2,
+    "projects_passed": 1,
+    "projects_failed": 1,
+    "pass_rate": 0.5
+  },
+  "failed_projects": [
+    {
+      "name": "bad-project",
+      "reason": "src/index.ts(2,7): error TS2322: Type 'string' is not assignable to type 'number'.",
+      "log_path": "runs/20251218-082024/logs/bad-project.log",
+      "exitCode": 2
+    }
+  ],
+  "projects": [
+    {
+      "name": "ok-project",
+      "passed": true,
+      "logPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/runs/20251218-082024/logs/ok-project.log",
+      "exitCode": 0,
+      "durationMs": 808
+    },
+    {
+      "name": "bad-project",
+      "passed": false,
+      "logPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/runs/20251218-082024/logs/bad-project.log",
+      "reason": "src/index.ts(2,7): error TS2322: Type 'string' is not assignable to type 'number'.",
+      "exitCode": 2,
+      "durationMs": 881
+    }
+  ]
+}

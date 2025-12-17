@@ -1,0 +1,25 @@
+{
+  "name": "typecheck-metrics-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "harness": "node run.js --projects \"./fixtures/*\""
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "glob": "^10.3.12",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
