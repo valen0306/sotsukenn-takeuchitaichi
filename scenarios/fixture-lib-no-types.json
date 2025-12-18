@@ -1,0 +1,8 @@
+{
+  "id": "fixture-lib-no-types",
+  "consumerPath": "./fixtures/consumer-strict",
+  "libraryName": "lib-no-types",
+  "predictedDtsPath": "./fixtures/predicted-dts/lib-no-types/index.d.ts"
+}
+
+

@@ -1,0 +1,2 @@
+src/index.ts(1,21): error TS7016: Could not find a declaration file for module 'lib-no-types'. '/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/fixtures/consumer-strict/node_modules/lib-no-types/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/lib-no-types` if it exists or add a new declaration (.d.ts) file containing `declare module 'lib-no-types';`

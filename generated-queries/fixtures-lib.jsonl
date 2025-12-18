@@ -1,0 +1,5 @@
+{"id":"add:param:0","query":"declare function add(a: [MASK], b: [MASK_1]): [MASK_RETURN];","target":{"name":"add","slot":"param_0"}}
+{"id":"add:param:1","query":"declare function add(a: [MASK_0], b: [MASK]): [MASK_RETURN];","target":{"name":"add","slot":"param_1"}}
+{"id":"add:return","query":"declare function add(a: [MASK_0], b: [MASK_1]): [MASK];","target":{"name":"add","slot":"return"}}
+{"id":"toStringify:param:0","query":"declare function toStringify(x: [MASK]): [MASK_RETURN];","target":{"name":"toStringify","slot":"param_0"}}
+{"id":"toStringify:return","query":"declare function toStringify(x: [MASK_0]): [MASK];","target":{"name":"toStringify","slot":"return"}}

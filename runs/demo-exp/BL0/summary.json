@@ -1,0 +1,17 @@
+{
+  "metrics": {
+    "baseline_success_rate": 0,
+    "predicted_success_rate": 0,
+    "delta": 0,
+    "baseline_total": 1,
+    "predicted_total": 1
+  },
+  "error_code_delta_top": {
+    "increased": [],
+    "decreased": []
+  },
+  "condition": {
+    "id": "BL0",
+    "mode": "BL0"
+  }
+}

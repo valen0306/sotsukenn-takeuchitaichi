@@ -1,0 +1,2 @@
+node_modules/@types/lib-no-types/index.d.ts(3,3): error TS2666: Exports and export assignments are not permitted in module augmentations.
+src/index.ts(1,10): error TS2305: Module '"lib-no-types"' has no exported member 'foo'.

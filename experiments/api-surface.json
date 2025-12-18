@@ -1,0 +1,8 @@
+{
+  "libName": "fixtures-lib",
+  "exports": [
+    { "kind": "function", "name": "add", "params": ["a", "b"] },
+    { "kind": "function", "name": "toStringify", "params": ["x"] }
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "condition": "BL1",
+  "libName": "foo",
+  "injectedDtsPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/generated-dts/BL1/foo/index.d.ts",
+  "metrics": {
+    "total": 2,
+    "success": 0,
+    "config_error": 2,
+    "type_error": 0,
+    "other_error": 0
+  }
+}

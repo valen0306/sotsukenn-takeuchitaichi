@@ -1,0 +1,1 @@
+src/index.ts(5,21): error TS2339: Property 'foo' does not exist on type 'number'.

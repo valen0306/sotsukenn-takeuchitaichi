@@ -1,0 +1,10 @@
+{
+  "condition": "BL0",
+  "metrics": {
+    "total": 2,
+    "success": 1,
+    "config_error": 0,
+    "type_error": 1,
+    "other_error": 0
+  }
+}

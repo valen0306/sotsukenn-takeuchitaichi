@@ -1,0 +1,27 @@
+{
+  "workspaceDir": "./workspace",
+  "timeoutSec": 120,
+  "projects": [
+    {
+      "name": "ok-project",
+      "source": {
+        "type": "local",
+        "path": "./fixtures/ok-project"
+      },
+      "packageManager": "pnpm",
+      "installCommand": "pnpm -s install",
+      "typecheckCommand": "pnpm -s run typecheck"
+    },
+    {
+      "name": "bad-project",
+      "source": {
+        "type": "local",
+        "path": "./fixtures/bad-project"
+      },
+      "packageManager": "pnpm",
+      "installCommand": "pnpm -s install",
+      "typecheckCommand": "pnpm -s run typecheck"
+    }
+  ]
+}
+

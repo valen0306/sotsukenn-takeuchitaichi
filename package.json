@@ -6,7 +6,11 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "typecheck": "tsc --noEmit",
-    "harness": "node run.js --projects \"./fixtures/*\""
+    "harness": "node run.js --projects \"./fixtures/*\"",
+    "exp:prepare": "node run.js prepare --manifest experiments/manifest.json",
+    "exp:eval": "node run.js eval --manifest experiments/manifest.json",
+    "gen:dts": "node run.js gen-dts --api experiments/api-surface.json --out generated-dts/OURS",
+    "test": "node --test --test-concurrency 1"
   },
   "dependencies": {
     "commander": "^11.1.0",

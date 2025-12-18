@@ -1,0 +1,8 @@
+{
+  "conditions": [
+    { "id": "BL0", "mode": "BL0" },
+    { "id": "BL1", "mode": "BL1" }
+  ]
+}
+
+

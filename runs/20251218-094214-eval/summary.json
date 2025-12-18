@@ -1,0 +1,13 @@
+{
+  "condition": "OURS",
+  "libName": "fixtures-lib",
+  "injectedDtsPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/generated-dts/OURS/fixtures-lib/index.d.ts",
+  "injectionMode": "tsconfig.injected",
+  "metrics": {
+    "total": 2,
+    "success": 1,
+    "config_error": 0,
+    "type_error": 1,
+    "other_error": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "name": "ok-project",
+      "preparedAt": "2025-12-18T00:31:24.886Z"
+    },
+    {
+      "name": "bad-project",
+      "preparedAt": "2025-12-18T00:31:25.048Z"
+    }
+  ]
+}

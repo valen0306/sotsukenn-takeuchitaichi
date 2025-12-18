@@ -1,0 +1,17 @@
+{
+  "libName": "test-lib",
+  "exports": [
+    { "kind": "function", "name": "getX", "params": [] }
+  ],
+  "slots": [
+    {
+      "slotId": "getX:return",
+      "candidates": [
+        { "type": "number", "score": 0.90 },
+        { "type": "{ foo: number }", "score": 0.80 },
+        { "type": "any", "score": 0.79 }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "consumer-strict",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
+
+

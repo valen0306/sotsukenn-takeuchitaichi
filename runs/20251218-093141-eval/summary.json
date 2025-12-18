@@ -1,0 +1,13 @@
+{
+  "condition": "BL1",
+  "libName": "foo",
+  "injectedDtsPath": "/Users/takeuchitaichi/Desktop/sotsukenn-takeuchitaichi/generated-dts/BL1/foo/index.d.ts",
+  "injectionMode": "tsconfig.injected",
+  "metrics": {
+    "total": 2,
+    "success": 1,
+    "config_error": 0,
+    "type_error": 1,
+    "other_error": 0
+  }
+}
